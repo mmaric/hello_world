@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/mmaric/stringutil"
+)
 
 func main() {
-	fmt.Println("Hello World\n")
+	fmt.Println(stringutil.Reverse("Hello World\n"))
 	fmt.Println("this is my addition\n")
 	fmt.Println("\nasdfasdfasdf\n")
 }
